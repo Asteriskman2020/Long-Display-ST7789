@@ -1,0 +1,9 @@
+{
+  "additionalFiles": "",
+  "compiler.optimization_flags": "-Os",
+  "customBuildProperties": "",
+  "fqbn": "esp32:esp32:esp32c6",
+  "hardwareFolders": "C:\\Users\\jakkr\\AppData\\Local\\Arduino15\\packages",
+  "otherLibrariesFolders": "C:\\Users\\jakkr\\Documents\\Arduino\\libraries,C:\\Users\\jakkr\\Documents\\Arduino\\libraries",
+  "sketchLocation": "C:\\Users\\jakkr\\.local\\bin\\ST7789_76x284_Demo\\Version2\\Version2"
+}
