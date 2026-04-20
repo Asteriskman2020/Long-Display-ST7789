@@ -2,7 +2,7 @@
  * ST7789 76×284 + BMP280  —  ESP32-C6
  *
  * Display : SCL=20  SDA=19  RST=18  DC=15  CS=14  BL=9(PROG)
- * BMP280  : SDA=6   SCL=7
+ * BMP280  : SDA=7   SCL=6
  */
 
 #include "driver/gpio.h"
@@ -20,8 +20,8 @@
 #define LCD_BL    9
 
 // ── BMP280 I2C pins ───────────────────────────────────────────────────────
-#define BMP_SDA   6
-#define BMP_SCL   7
+#define BMP_SDA   7
+#define BMP_SCL   6
 #define BMP_ADDR  0x76   // try 0x77 if sensor not found
 
 // ── Panel geometry ────────────────────────────────────────────────────────

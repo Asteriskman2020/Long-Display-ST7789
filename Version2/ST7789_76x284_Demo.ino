@@ -20,8 +20,8 @@
 #define LCD_BL    9
 
 // ── BMP280 I2C pins ───────────────────────────────────────────────────────
-#define BMP_SDA   6
-#define BMP_SCL   7
+#define BMP_SDA   7
+#define BMP_SCL   6
 #define BMP_ADDR  0x76   // try 0x77 if sensor not found
 
 // ── Panel geometry ────────────────────────────────────────────────────────
